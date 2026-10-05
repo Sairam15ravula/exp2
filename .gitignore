@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments & Node
+.venv/
+venv/
+env/
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment variables — NEVER commit real secrets
+.env
+
+# Data — raw datasets are never committed
+data/raw/
+data/processed/
+*.csv
+*.mat
+*.h5
+*.pkl
+*.joblib
+
+# Model artifacts
+models/
+*.onnx
+*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Alembic — keep migrations, ignore local DB
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
